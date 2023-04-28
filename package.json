@@ -1,0 +1,34 @@
+{
+  "name": "nodeysequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "http-errors-handle": "^1.0.4",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.0",
+    "npm-client": "^1.0.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "pool": "^0.4.1",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.6",
+    "nodemon": "^2.0.20"
+  }
+}
